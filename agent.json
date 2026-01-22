@@ -1,0 +1,42 @@
+{
+  "displayName": "Blood Donation Agent",
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 130411340194,
+  "speechToTextSettings": {
+  
+  },
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/130411340194/locations/global/collections/default_collection/engines/8eedb79b-aa88-4216-b108-37b250a083c4-chat-1769032364"
+  },
+  "duplexSettings": {
+  
+  },
+  "startPlaybook": "Default Generative Playbook",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

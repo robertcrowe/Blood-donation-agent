@@ -1,0 +1,26 @@
+{
+  "name": "372a31e0-a277-4353-8d0d-3859499f0f6f",
+  "displayName": "User Blood Donation Decision",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Eligibility Quiz",
+    "name": "a21ad9e2-928c-4baa-b33e-597b37872c95"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks, Have a nice day!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "57c01ef3-b3e9-49cf-bb77-904d77b03262"
+  } ]
+}

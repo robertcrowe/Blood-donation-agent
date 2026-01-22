@@ -1,0 +1,40 @@
+{
+  "name": "da40ee13-8618-4443-b9da-0fa1e82f3d42",
+  "displayName": "Blood_donation_tool",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/130411340194/locations/global/collections/default_collection/dataStores/australian-red-cross-lifeblood-unstructured_1769032213640",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1769032260,
+        "nanos": 836802000
+      },
+      "displayName": "Australian Red Cross Lifeblood Unstructured",
+      "dialogflowAddTime": {
+        "seconds": 1769032364,
+        "nanos": 356000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "default"
+      },
+      "rewriterModel": {
+        "model": "default"
+      }
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "mode": "MODE_DEFAULT"
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

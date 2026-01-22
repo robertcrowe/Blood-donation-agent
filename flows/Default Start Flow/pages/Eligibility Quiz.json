@@ -1,0 +1,42 @@
+{
+  "name": "53741504-b182-42b9-87cb-004894deea96",
+  "displayName": "Eligibility Quiz",
+  "form": {
+    "parameters": [ {
+      "displayName": "age",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "weight",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/qwiklabs-gcp-00-d1ecfd487cde/locations/global/agents/8eedb79b-aa88-4216-b108-37b250a083c4/generators/23c76827-6b1f-4660-b56e-5e40a05497b9",
+        "inputParameters": [ {
+          "key": "age",
+          "value": "$session.params.age"
+        }, {
+          "key": "weight",
+          "value": "$session.params.weight"
+        } ],
+        "outputParameter": "$request.generative.eligibility-outcome"
+      } ]
+    },
+    "name": "025077f8-5fea-42f5-ad90-4f780ad2fcdd"
+  } ]
+}

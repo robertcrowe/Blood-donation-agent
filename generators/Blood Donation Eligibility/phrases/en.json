@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Check the users eligibility against the following criteria: the minimum age is 18 and the maximum age is 75. The weight must be at least 50 kg. The user is $age years old and weighs $weight Kg. Craft an email and politely explain to the user if they're eligible to donate and if not why.",
+    "languageCode": "en"
+  } ]
+}
